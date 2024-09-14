@@ -2,10 +2,11 @@
 https://vaac.meteo.fr
 https://vaac.meteo.fr/advisory/2024/
 
-it reads the newest folder of the current year and downloads from the newest folder the image and the
+It reads from the webpage https://vaac.meteo.fr the newest folder of the current year and downloads from the latest folder the image and the
 csv file.
-We run it from the taskmanager or crontab so an to give us an alert.
-It sends the files by e-mail, from the given account credentials.
+
+We execute it from taskmanager or crontab so as to send us an alert.
+It sends the files by e-mail, after defining sender account credentials to a list of e-mails.
 
 '''
 import requests
